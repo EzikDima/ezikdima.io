@@ -1,0 +1,118 @@
+
+* {
+margin: 0;
+padding: 0;
+}
+
+.header{
+    text-align: center;
+padding: 30px;
+background-image: url(data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwcHBw0HBw0HBwcHBw0HBwcHBw8IDQcNFREWFhURFRUYHSggGCYxGxMTITEhMSkrLi4uFx8zODMtNygtOjcBCgoKBQUFDgUFDisZExkrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrK//AABEIAM0A9gMBIgACEQEDEQH/xAAbAAEBAQEBAQEBAAAAAAAAAAADAgEABAcFBv/EABgQAQEBAQEAAAAAAAAAAAAAAAABAhES/8QAFAEBAAAAAAAAAAAAAAAAAAAAAP/EABQRAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhEDEQA/APx2OYDqmtqaDKiqqKCaPS6jQD0jS6OgjQ9L0OgPQ9E0PQD0LRdD0AtC0XQ9ALQ6XQtAPQ9E0PQD0Olo6A6mrqKCWNrAc5zgc5zgfWOs6zrOg3qa61NoOqK21NoJqNKqKCaPS6OgjQ6SjoD0PRNI0AtD0XQ9ALQ9F0PUAWh6LqD1AFqD1C6iLADYiwtiLADYmwtiLAFYktieAhreO4DGK44H1Hruo67oKtTazrLQdam11qbQdaittRaDKiqqKCNIq6igijpKOgOo0SooC1EWFsHYAtQdhrEWAGwdh7EWACxFhrE2ACxFh7lNyALE+T3KfIC47hPLvID44nlwPonWdR13QV1lqes6CrU2stTaDbU2utTaDLU1tTQTU1VRQTUVdTQHUUlTYArE2EsTYArEWFsTYAbEWHsRcgCxNye5TcgC5TcnuU3IAuU+XouWeQB5Z5P5Z5APlh/DQf2PWdR13QX1nUdd0FdZanrOg3rLWdZaDrWV1YDKmtrKCamrqaCKmwibAHYmwtibAFYmw1ibAFYm5NcpuQDcpuT3LLkHnuWeXo8s8g8/lnl6LlngHn8u8H8u8gDy4/hoP2+u6PrugTrOo67oL6zqes6C+s6nrug3rHdYDWVzAdWNcCWcVx3ARxnCcZwB8Zcl47yAfLPJvLvIB8s8m8u8gDyzw9Hh3gHn8s8PR4d4B5/DvD0eHeAefw56PDgL13R9d0Cdd0fXdAnXdR13QX13Udb0FdcnrQa5jQc5rgc7jW8BPHcXx3ATx3lfG8Afl3kvl3kBeXeTeW+QD5d4N5b4AHh3g/hvgHn8O8PR4b4B5vFc9HhoPy+u6PrugTrej67oE63o+t6BOt6PqpQX1qIqApqYqA1ro2A2N46KkBkipGyKkBMjZFyNmQT5b5XMqmQH5b5LMtmQF5b5NMtmAD4b4P4b4B5/DfB/DfAPP4c9HhoP5Lrej67oE63o+t6BOtlHKqUCSqlHKqUCStiIqASKiIuAqKiYuAqKkZFyA6RcjpFSA6RcjpFyAyZVMqmVzIJmVTK5lcyA5lswWZVMgKYb4NMqmAB4b4PMN8A8/hp/DQfO+t6PregTrZRSqlAkqpRyqlAsqpRSrlAsVBxcAkXEReQJF5RFwFyLkTkmYCpF5jMwmYDZFyOzCZgOkXMuzCZyDJlcyqZXMgmZXMrmVzIDmVTBJlcyAZhvg0y3yAfDj+XA+T9b0fW9AnWyj6qUCSrlFKuUCSkgpVwCxcHCZAmSZHkmQJkmR5LkF5JmIyTILzC5iMlzAVmEzE5hcwFZhMxmYTMBuYTOXZhMwHTK5luYTOQTMrmVTK5kBzKvJJlvkBeXG8uB8W63qGguVUo4qASVco4uAWLyKEyBckyLJMgXJciyXIEyXIslyBckyPJcgTJcjybILzC5iMlzAXmFzEZhcwF5hcxGYXMBWYTMZmEzAdmEkdIuQGTLeKkVwEccvjgfC2sdAVFRMVAXFxEXAJkmRZJkC5JkWS5AuS5FkuQJk2Q5NkC5LkWS5AuS5Fk2ALkuRZNkCZNkWTZAmYXI8lyBMkzEZJkFyLkTFwGyKkZFQGccpwP/2Q==);
+background-repeat: no-repeat;
+background-position: center;
+background-size:cover;
+height: 100%;
+
+}
+.main{
+    background-image: url(https://i.ytimg.com/vi/SjfVo0KfC78/maxresdefault.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+    height: 100%;
+    min-height: 100vh;
+}
+
+.main1{
+    background-image: url(https://i.ytimg.com/vi/SjfVo0KfC78/maxresdefault.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+    height: 100%;
+    min-height: 100vh;
+}
+
+.list li{
+  
+    display: inline-block;
+    margin: 10px;
+}
+.list a{
+    font-size: 20px;
+    color: white;
+    line-height: 1.5;
+    font-weight: 700;
+    text-decoration: none;
+}
+.main-section{
+    font-family: 'Fuggles', cursive;
+    color: white;
+    padding: 0  30px; 
+    height: 100%;
+    min-height: 100vh;
+}
+.main-heading{
+text-align: center;
+margin-bottom: 20px;
+color: white;
+}
+.main-paragraph{
+    padding: 0 50px; 
+    color: white;
+}
+.main-img{
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 300px;
+    transition: all 1s ease-in-out;
+}
+.main-img2{
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 300px;
+
+}
+.main-img:hover{
+ transform: translateY(-1000PX);
+}
+.footer{
+    background-image: url(data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwcHBw0HBw0HBwcHBw0HBwcHBw8IDQcNFREWFhURFRUYHSggGCYxGxMTITEhMSkrLi4uFx8zODMtNygtOjcBCgoKBQUFDgUFDisZExkrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrK//AABEIAM0A9gMBIgACEQEDEQH/xAAbAAEBAQEBAQEBAAAAAAAAAAADAgEABAcFBv/EABgQAQEBAQEAAAAAAAAAAAAAAAABAhES/8QAFAEBAAAAAAAAAAAAAAAAAAAAAP/EABQRAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhEDEQA/APx2OYDqmtqaDKiqqKCaPS6jQD0jS6OgjQ9L0OgPQ9E0PQD0LRdD0AtC0XQ9ALQ6XQtAPQ9E0PQD0Olo6A6mrqKCWNrAc5zgc5zgfWOs6zrOg3qa61NoOqK21NoJqNKqKCaPS6OgjQ6SjoD0PRNI0AtD0XQ9ALQ9F0PUAWh6LqD1AFqD1C6iLADYiwtiLADYmwtiLAFYktieAhreO4DGK44H1Hruo67oKtTazrLQdam11qbQdaittRaDKiqqKCNIq6igijpKOgOo0SooC1EWFsHYAtQdhrEWAGwdh7EWACxFhrE2ACxFh7lNyALE+T3KfIC47hPLvID44nlwPonWdR13QV1lqes6CrU2stTaDbU2utTaDLU1tTQTU1VRQTUVdTQHUUlTYArE2EsTYArEWFsTYAbEWHsRcgCxNye5TcgC5TcnuU3IAuU+XouWeQB5Z5P5Z5APlh/DQf2PWdR13QX1nUdd0FdZanrOg3rLWdZaDrWV1YDKmtrKCamrqaCKmwibAHYmwtibAFYmw1ibAFYm5NcpuQDcpuT3LLkHnuWeXo8s8g8/lnl6LlngHn8u8H8u8gDy4/hoP2+u6PrugTrOo67oL6zqes6C+s6nrug3rHdYDWVzAdWNcCWcVx3ARxnCcZwB8Zcl47yAfLPJvLvIB8s8m8u8gDyzw9Hh3gHn8s8PR4d4B5/DvD0eHeAefw56PDgL13R9d0Cdd0fXdAnXdR13QX13Udb0FdcnrQa5jQc5rgc7jW8BPHcXx3ATx3lfG8Afl3kvl3kBeXeTeW+QD5d4N5b4AHh3g/hvgHn8O8PR4b4B5vFc9HhoPy+u6PrugTrej67oE63o+t6BOt6PqpQX1qIqApqYqA1ro2A2N46KkBkipGyKkBMjZFyNmQT5b5XMqmQH5b5LMtmQF5b5NMtmAD4b4P4b4B5/DfB/DfAPP4c9HhoP5Lrej67oE63o+t6BOtlHKqUCSqlHKqUCStiIqASKiIuAqKiYuAqKkZFyA6RcjpFSA6RcjpFyAyZVMqmVzIJmVTK5lcyA5lswWZVMgKYb4NMqmAB4b4PMN8A8/hp/DQfO+t6PregTrZRSqlAkqpRyqlAsqpRSrlAsVBxcAkXEReQJF5RFwFyLkTkmYCpF5jMwmYDZFyOzCZgOkXMuzCZyDJlcyqZXMgmZXMrmVzIDmVTBJlcyAZhvg0y3yAfDj+XA+T9b0fW9AnWyj6qUCSrlFKuUCSkgpVwCxcHCZAmSZHkmQJkmR5LkF5JmIyTILzC5iMlzAVmEzE5hcwFZhMxmYTMBuYTOXZhMwHTK5luYTOQTMrmVTK5kBzKvJJlvkBeXG8uB8W63qGguVUo4qASVco4uAWLyKEyBckyLJMgXJciyXIEyXIslyBckyPJcgTJcjybILzC5iMlzAXmFzEZhcwF5hcxGYXMBWYTMZmEzAdmEkdIuQGTLeKkVwEccvjgfC2sdAVFRMVAXFxEXAJkmRZJkC5JkWS5AuS5FkuQJk2Q5NkC5LkWS5AuS5Fk2ALkuRZNkCZNkWTZAmYXI8lyBMkzEZJkFyLkTFwGyKkZFQGccpwP/2Q==);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+    padding: 30px;
+    height: 100%;
+}
+
+.footer-par{
+    text-align: center;
+color: white;
+}
+.main-paragraph1{
+    text-align: center;
+    padding: 0 50px; 
+    color: white;
+}
+.container{
+    height: 100%;
+    min-height: 100vh;
+    margin: 0 auto;
+}
+.main-section1{
+    
+    font-family: 'Fuggles', cursive;
+    color: white;
+    padding: 0 30px; 
+    font-size: 100px;
+    height: 100%;
+    min-height: 100vh;
+}
+.main-section2{
+    font-family: 'Fuggles', cursive;
+ 
+    color: white;
+    padding: 0 30px; 
+    font-size: 50px;
+    height: 100%;
+    min-height: 100vh;
+}
